@@ -62,6 +62,9 @@ https.createServer(options, function(req, res) {
                         if (word.toLowerCase() == "friday") {
                             myanswer = "Have a good weekend!"
                         }
+                        if (word.toLowerCase() == "william") {
+                            myanswer = "He wore his sister's pants to school in middle school"
+                        }
                     }
                     myResponse = JSON.stringify(respond(myanswer));
                 }
